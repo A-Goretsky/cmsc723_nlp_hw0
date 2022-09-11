@@ -9,3 +9,6 @@ who started his year with a loss
 he strolled into class,
 teeming with sass
 and got thrown back out on the moss.
+
+# Noting that "awoken" is not in the CMU dictionary (and thus will fail if tested with this homework), 
+# but it is a valid word, it is the past participle of "awake".

@@ -84,6 +84,12 @@ The dress caught fire
 And burned her entire
 Front page, sporting section and all."""
 
+        h = """An exceedingly fat friend of cant,
+When asked at what hour he'd pant - ,
+Replied, "At test,
+At three, five, and pest,
+And eight and a quarter past cant"""
+
         self.assertEqual(self.ld.is_limerick(a), True)
         self.assertEqual(self.ld.is_limerick(b), False)
         self.assertEqual(self.ld.is_limerick(c), False)
@@ -91,6 +97,7 @@ Front page, sporting section and all."""
         self.assertEqual(self.ld.is_limerick(f), False)
         self.assertEqual(self.ld.is_limerick(e), True)
         self.assertEqual(self.ld.is_limerick(g), True)
+        self.assertEqual(self.ld.is_limerick(h), True)
 
 if __name__ == '__main__':
     unittest.main()
